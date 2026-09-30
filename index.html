@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guru Karthikeyan V | AI & CSE Portfolio</title>
+  <meta name="description" content="Portfolio of Guru Karthikeyan V, Computer Science Engineering student and aspiring software developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><span>G</span>K.</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i class="bi bi-list"></i></button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li><button id="themeBtn" class="icon-btn" aria-label="Toggle theme"><i class="bi bi-moon-stars"></i></button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="orb orb1"></div><div class="orb orb2"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <div class="eyebrow"><span class="pulse"></span> COMPUTER SCIENCE & AI</div>
+            <h1>Hi, I'm <span class="gradient">Guru Karthikeyan V</span></h1>
+            <h2>Building ideas into <span id="typing"></span><span class="cursor">|</span></h2>
+            <p class="hero-text">A Computer Science Engineering student passionate about coding, artificial intelligence, full-stack development, and creating useful software solutions.</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#projects" class="btn btn-primary-custom">Explore My Work <i class="bi bi-arrow-right"></i></a>
+              <a href="#contact" class="btn btn-outline-custom">Let's Connect</a>
+            </div>
+            <div class="socials mt-4">
+              <a href="https://github.com/gurukarthikeyan06" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="mailto:your-email@example.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="ai-card">
+              <div class="ai-grid"></div>
+              <div class="ai-center"><i class="bi bi-cpu"></i></div>
+              <div class="node n1">Python</div><div class="node n2">AI / ML</div>
+              <div class="node n3">Java</div><div class="node n4">Web</div>
+              <div class="ai-caption"><span>AI.DEV</span><small>learning • building • innovating</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading"><span>01</span><h2>About Me</h2></div>
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <div class="glass-card h-100">
+              <p class="lead">I'm <strong>Guru Karthikeyan V</strong>, a Computer Science Engineering student at PSNA College of Engineering and Technology.</p>
+              <p>I enjoy solving problems with code and exploring AI, machine learning, web development, databases, and software engineering. My goal is to keep learning, build practical projects, and grow as a software developer.</p>
+              <div class="quick-facts">
+                <div><span>Location</span><strong>Dindigul, Tamil Nadu</strong></div>
+                <div><span>Degree</span><strong>B.E. Computer Science</strong></div>
+                <div><span>Languages</span><strong>C • Java • Python</strong></div>
+                <div><span>Strength</span><strong>Quick Learner</strong></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="glass-card highlight-card h-100">
+              <i class="bi bi-stars big-icon"></i>
+              <h3>What I Like Building</h3>
+              <ul>
+                <li><i class="bi bi-check2-circle"></i> AI & machine learning applications</li>
+                <li><i class="bi bi-check2-circle"></i> Full-stack web applications</li>
+                <li><i class="bi bi-check2-circle"></i> Database-driven systems</li>
+                <li><i class="bi bi-check2-circle"></i> Practical student projects</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-heading"><span>02</span><h2>Skills</h2></div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-code-slash"></i><h3>Programming</h3><p>C · Java · Python</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-window-stack"></i><h3>Web Development</h3><p>HTML · CSS · JavaScript · Bootstrap</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-database"></i><h3>Backend & DB</h3><p>Node.js · Express · MySQL</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-robot"></i><h3>AI / ML</h3><p>Neural Networks · CNN · ML concepts</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading"><span>03</span><h2>Featured Projects</h2></div>
+        <div class="row g-4">
+          <div class="col-lg-4"><article class="project-card"><div class="project-icon"><i class="bi bi-cart3"></i></div><span class="tag">FULL STACK</span><h3>E-Commerce Application</h3><p>Full-stack shopping platform with authentication, products, cart, checkout, orders, and admin functionality.</p><div class="tech">HTML · CSS · JS · Bootstrap · Node.js · Express · MySQL · JWT</div><a href="https://github.com/gurukarthikeyan06" target="_blank">View on GitHub <i class="bi bi-arrow-up-right"></i></a></article></div>
+          <div class="col-lg-4"><article class="project-card"><div class="project-icon"><i class="bi bi-image"></i></div><span class="tag">AI / CNN</span><h3>Animal Species Classification</h3><p>AI project concept using convolutional neural networks to classify animal species from images.</p><div class="tech">Python · CNN · Deep Learning · Image Dataset</div><a href="#contact">Discuss Project <i class="bi bi-arrow-up-right"></i></a></article></div>
+          <div class="col-lg-4"><article class="project-card"><div class="project-icon"><i class="bi bi-building"></i></div><span class="tag">WEB DEVELOPMENT</span><h3>Responsive Business Website</h3><p>A responsive multi-page business website created as a practical web development project.</p><div class="tech">HTML · CSS · JavaScript · Responsive UI</div><a href="https://github.com/gurukarthikeyan06/Responsive-Business-Website" target="_blank">View Project <i class="bi bi-arrow-up-right"></i></a></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section alt">
+      <div class="container">
+        <div class="section-heading"><span>04</span><h2>Education & Experience</h2></div>
+        <div class="timeline">
+          <div class="timeline-item"><div class="dot"></div><div><span class="date">CURRENT</span><h3>B.E. Computer Science & Engineering</h3><p>PSNA College of Engineering and Technology</p><small>Building foundations in programming, software development, databases, AI/ML, and computer science.</small></div></div>
+          <div class="timeline-item"><div class="dot"></div><div><span class="date">INTERNSHIP</span><h3>RISE SELF Internship</h3><p>Practical software development experience</p><small>Worked on project-based learning and strengthened technical development skills.</small></div></div>
+          <div class="timeline-item"><div class="dot"></div><div><span class="date">CERTIFICATIONS</span><h3>Online Certificate Courses</h3><p>7 online certifications</p><small>Continuous learning through online technical courses.</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section">
+      <div class="container"><div class="cta-card"><i class="bi bi-chat-dots"></i><div><h2>Have a project idea?</h2><p>Let's turn it into something useful with code and AI.</p></div><a href="#contact" class="btn btn-primary-custom">Contact Me</a></div></div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-heading"><span>05</span><h2>Contact</h2></div>
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <div class="glass-card contact-info">
+              <h3>Let's Connect</h3><p>Interested in collaboration, internships, software projects, or AI development? Send me a message.</p>
+              <a href="mailto:your-email@example.com"><i class="bi bi-envelope"></i> your-email@example.com</a>
+              <a href="tel:+919597549075"><i class="bi bi-telephone"></i> +91 95975 49075</a>
+              <span><i class="bi bi-geo-alt"></i> Dindigul, Tamil Nadu</span>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <form class="glass-card contact-form" id="contactForm">
+              <div class="row g-3"><div class="col-md-6"><input required type="text" placeholder="Your Name"></div><div class="col-md-6"><input required type="email" placeholder="Your Email"></div><div class="col-12"><input required type="text" placeholder="Subject"></div><div class="col-12"><textarea required rows="5" placeholder="Your Message"></textarea></div><div class="col-12"><button class="btn btn-primary-custom" type="submit">Send Message <i class="bi bi-send"></i></button></div></div>
+              <div id="formMsg" class="form-msg"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container d-flex flex-wrap justify-content-between gap-3"><span>© <span id="year"></span> Guru Karthikeyan V</span><span>Built with code + AI ✦</span></div></footer>
+  <button id="topBtn" class="top-btn"><i class="bi bi-arrow-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
